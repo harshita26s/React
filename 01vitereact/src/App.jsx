@@ -1,12 +1,17 @@
-
-
-
+import Chai from "./Chai"
 
 function App() {
+  const username = "Hey!! Harshi"
   
 
   return (
-    <h1>Hey!! code with vite | HD</h1>
+    <>
+    <Chai />
+    <h1>Chai is ready {username}</h1>  
+    {/* {} evaluated expretion */}
+    <p>test para</p>
+    </>
+  
   )
 }
 
